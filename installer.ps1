@@ -33,7 +33,7 @@ $xamlInput = @'
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:installRetail"
         mc:Ignorable="d"
-        Title="Microsoft Office Installation Tool - https://installmsoffice.com" Height="515" Width="970" WindowStartupLocation="CenterScreen" Icon="https://raw.githubusercontent.com/installmsoffice/office/main/Files/microsoft_icon.png">
+        Title="Microsoft Office Installation Tool - installmsoffice.com" Height="515" Width="970" WindowStartupLocation="CenterScreen" Icon="https://raw.githubusercontent.com/installmsoffice/office/main/Files/microsoft_icon.png">
     <Grid HorizontalAlignment="Left" VerticalAlignment="Top">
         <GroupBox x:Name="groupBoxMicrosoftOffice" Header="Select version to install:" BorderBrush="#FF164A69" Margin="125,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="458" Width="821" FontFamily="Consolas" FontSize="11">
             <Canvas HorizontalAlignment="Left" VerticalAlignment="Top">
@@ -110,7 +110,7 @@ $xamlInput = @'
                 <TextBox x:Name="textBox2" TextWrapping="Wrap" Text="(*) Default mode is Install. If you want to download only, select Download mode." Canvas.Top="360" FontSize="10.5" BorderBrush="{x:Null}" Background="{x:Null}" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="-3" Padding="0,0,0,2"/>
                 <TextBox x:Name="textBox3" TextWrapping="Wrap" Text="(*) The downloaded files would be saved on the current user's desktop." Canvas.Top="377" FontSize="10.5" BorderBrush="{x:Null}" Background="{x:Null}" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="-3" Padding="0,0,0,2" Margin="0,2,0,2"/>
                 <TextBox x:Name="textBox4" TextWrapping="Wrap" Text="(*) The script can download/ install both Retail and Volume versions." Canvas.Top="395" FontSize="10.5" BorderBrush="{x:Null}" Background="{x:Null}" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="-3" Margin="0,2,0,2" Padding="0,0,0,2"/>
-                <TextBox x:Name="textBox5" TextWrapping="Wrap" Text="(*) Created by: Tonny Nguyen | Website: " Canvas.Top="414" FontSize="10.5" BorderBrush="{x:Null}" Background="{x:Null}" Canvas.Left="-3" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,2" Padding="0,0,0,2"/>
+                <TextBox x:Name="textBox5" TextWrapping="Wrap" Text="(*) Created by: Leo Nguyen | Website: " Canvas.Top="414" FontSize="10.5" BorderBrush="{x:Null}" Background="{x:Null}" Canvas.Left="-3" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,2,0,2" Padding="0,0,0,2"/>
                 <Label x:Name="LabelRemoveAll" Content="Remove All Apps:" FontWeight="Bold" Canvas.Left="502" Canvas.Top="334" HorizontalAlignment="Left" VerticalAlignment="Center" Background="White"/>
                 <Button x:Name="buttonRemoveAll" Content="Remove All" Background="#FFE23B15" FontFamily="Consolas" FontSize="10" Foreground="White" Height="27" Width="73" UseLayoutRounding="True" BorderBrush="{x:Null}" HorizontalAlignment="Left" Canvas.Left="670" Canvas.Top="358" VerticalAlignment="Center"/>
                 <Image x:Name="image" Height="81" Width="78" Canvas.Left="40" Canvas.Top="112" Source="https://raw.githubusercontent.com/installmsoffice/office/main/Files/download_icon.png" HorizontalAlignment="Center" VerticalAlignment="Top" Visibility="Hidden"/>
