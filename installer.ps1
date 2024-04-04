@@ -24,6 +24,7 @@ Add-Type -AssemblyName PresentationFramework, System.Drawing, PresentationFramew
 # Place your xaml code from Visual Studio in here string (between @ symbols)
 # $xamlinput = @'<xaml code here'@
 
+
 $xamlInput = @'
 <Window x:Class="installRetail.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -32,7 +33,7 @@ $xamlInput = @'
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:installRetail"
         mc:Ignorable="d"
-        Title="Microsoft Installation Tool - www.installmsoffice.com" Height="515" Width="970" WindowStartupLocation="CenterScreen" Icon="https://raw.githubusercontent.com/installmsoffice/office/main/Files/microsoft_icon.png">
+        Title="Microsoft Office Installation Tool - www.installmsoffice.com" Height="515" Width="970" WindowStartupLocation="CenterScreen" Icon="https://raw.githubusercontent.com/installmsoffice/office/main/Files/microsoft_icon.png">
     <Grid HorizontalAlignment="Left" VerticalAlignment="Top">
         <GroupBox x:Name="groupBoxMicrosoftOffice" Header="Select version to install:" BorderBrush="#FF164A69" Margin="125,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="458" Width="821" FontFamily="Consolas" FontSize="11">
             <Canvas HorizontalAlignment="Left" VerticalAlignment="Top">
