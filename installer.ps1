@@ -173,7 +173,7 @@ $Link1.Add_PreviewMouseDown({[system.Diagnostics.Process]::start('https://instal
 
 # Download links
     $uri = "https://raw.githubusercontent.com/installmsoffice/office/main/Files/setup.exe"
-    $uri2013 = "https://raw.githubusercontent.com/installmsoffice/office/main/Files/setup.exe"
+    $uri2013 = "https://raw.githubusercontent.com/installmsoffice/office/main/Files/bin2013.exe"
 
 # Prepiaring for download and install
     function PreparingOffice {
